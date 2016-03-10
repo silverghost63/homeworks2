@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px; }
+
+.container {
+  padding-left: 0;
+  padding-right: 0; }
+
+.weight-bold {
+  font-weight: 700; }
+
+.color-green {
+  color: #0feb9e; }
+
+.color-blue {
+  color: #32b0ee; }
+
+.bg-grey {
+  background-color: #f4f7f9; }
+
+.bg-light {
+  background-color: #FFFFFF; }
+
+.section {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0; }
+  .section__title {
+    color: #0eb493;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .section__note {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b646e; }
+  .section__delimiter {
+    position: relative;
+    width: 230px;
+    margin-bottom: 40px; }
+    .section__delimiter--bg-grey {
+      border-top: 1px solid #dce1e5; }
+    .section__delimiter--bg-light {
+      border-top: 1px solid #dce1e5; }
+    .section__delimiter:after {
+      font-family: FontAwesome;
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      padding: 0 10px;
+      margin: -10px 0 0 -20px;
+      color: #c3c6c7;
+      font-size: 16px;
+      overflow: hidden; }
+    .section__delimiter--bg-white:after {
+      background-color: #FFFFFF;
+      color: #c3c6c7; }
+    .section__delimiter--bg-grey:after {
+      background-color: #f4f7f9;
+      color: #c3c6c7; }
+
+/*# sourceMappingURL=main.css.map */
