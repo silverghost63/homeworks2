@@ -1,0 +1,22 @@
+.works__filter {
+  text-align: center; }
+
+.filter__list {
+  list-style: none;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  margin: 27px 0; }
+.filter__item {
+  float: left;
+  cursor: pointer;
+  color: #062033;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 20px;
+  margin: 0 3px; }
+  .filter__item--active {
+    color: #fff;
+    background-color: #0eb493; }
+
+/*# sourceMappingURL=works.css.map */
