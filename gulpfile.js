@@ -35,7 +35,7 @@ gulp.task('mincss', function(){
 gulp.task('minscripts', function(){
   return gulp.src(paths.script)
     .pipe(minify())
-    .pipe(gulp.dest('libs/scripts'));
+    .pipe(gulp.dest('libs/scripts'))
 	 .pipe(notify({
 	  onLast: true,
 		message: 'Done! MinScripts...'
