@@ -1,14 +1,20 @@
-@import "bourbon/bourbon"
-
 $bg-light: #FFFFFF
 $bg-grey: #f4f7f9
-
+$bg-dark: #132537
+$theme-color: #0eb493
 
 body
 	font-family: "Open Sans", sans-serif
 	font-size: 13px
 
-.container
+input[type="text"],
+input[type="email"],
+button
+	outline: none
+	-webkit-appearance: none
+
+.container,
+.container-fluid
 	padding-left: 0
 	padding-right: 0
 
@@ -27,13 +33,16 @@ body
 .bg-light
 	background-color: $bg-light
 
+.bg-dark
+	background-color: $bg-dark
+
 .section
 	position: relative
 	overflow: hidden
 	text-align: center
-	padding: 50px 0
+	padding: 0 0
 	&__title
-		color: #0eb493
+		color: $theme-color
 		font-size: 28px
 		font-weight: 800
 		text-transform: uppercase
@@ -41,6 +50,7 @@ body
 		font-size: 18px
 		font-weight: 600
 		color: #5b646e
+		letter-spacing: -0.4px
 	&__delimiter
 		position: relative
 		width: 230px
@@ -49,6 +59,8 @@ body
 			border-top: 1px solid #dce1e5
 		&--bg-light
 			border-top: 1px solid #dce1e5
+		&--bg-dark
+			border-top: 1px solid $bg-light
 		&:after
 			font-family: FontAwesome
 			content: "\f08a"
@@ -66,3 +78,6 @@ body
 		&--bg-grey:after
 			background-color: $bg-grey
 			color: #c3c6c7
+		&--bg-dark:after
+			background-color: $bg-dark
+			color: $bg-light
