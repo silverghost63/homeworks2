@@ -20,10 +20,10 @@ gulp.task('sass', function () {
 });
 
 gulp.task('mincss', function(){
-	return gulp.src(paths.scss)
+	return gulp.src(paths.sass)
 	.pipe(sass().on('error', sass.logError))
 	.pipe(minifyCss())
-	.pipe(gulp.dest('css/styles'))
+	.pipe(gulp.dest('css'))
 	.pipe(concat('style.css'))
 	.pipe(gulp.dest('dist'))
 	 .pipe(notify({

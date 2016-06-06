@@ -4,7 +4,7 @@
 	<title>Brandi</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
@@ -24,13 +24,14 @@
 			<div class="navbar__header">
 				<a class="navbar__logotype" href="#">Brandi</a>
 				<div class="navbar__tagline"><span class="color-blue navbar__tagline--delimiter">|</span>I’am your tag line</div>
+				<span class="navigation__toggle"><i class="fa fa-bars" aria-hidden="true"></i></span>
 			</div>
 			<ul class="navigation">
-				<li class="navigation__item"><a class="navigation__link navigation__link--active" href="#home">Home</a></li>
+				<li class="navigation__item"><a class="navigation__link navigation__link--active" href="#home">Главная</a></li>
 				<li class="navigation__item"><a class="navigation__link" href="#features">Features</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="#works">Works</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="#works">Работы</a></li>
 				<li class="navigation__item"><a class="navigation__link" href="#team">Team</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="#contacts">Contact</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="#contacts">Контакты</a></li>
 			</ul>
 		</div><!-- /.container -->
 	</div>
@@ -47,7 +48,7 @@
 							<div class="home__home-content">
 								<h2 class="home-content__title">Meet <span class="weight-bold">Brandi</span>!</h2>
 								<p class="home-content__text"><span class="color-green">/creative</span> one page template.</p>
-								<p class="home-content__note"><span class="color-green home-content__note--hyphen">&mdash;</span> We are a team of professionals <span class="color-green home-content__note--hyphen">&mdash;</span></p>
+								<p class="home-content__note">We are a team of professionals</p>
 							</div>
 							<div class="home__social">
 								<a href="#" class="home__social-link"><i class="fa fa-twitter"></i></a>
@@ -78,7 +79,7 @@
 							<div class="home__home-content">
 								<h2 class="home-content__title">Meet <span class="weight-bold">Brandi</span>!</h2>
 								<p class="home-content__text"><span class="color-green">/creative</span> one page template.</p>
-								<p class="home-content__note"><span class="color-green home-content__note--hyphen">&mdash;</span> We are a team of professionals <span class="color-green home-content__note--hyphen">&mdash;</span></p>
+								<p class="home-content__note">We are a team of professionals</p>
 							</div>
 						</div>
 					</div>
@@ -105,7 +106,7 @@
 			<div id="features__swiper-container" class="swiper-container features__swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-feather"></i>
@@ -116,7 +117,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-pencil"></i>
@@ -127,7 +128,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-megaphone"></i>
@@ -140,7 +141,7 @@
 						</div>					
 					</div>
 					<div class="swiper-slide">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-megaphone"></i>
@@ -151,7 +152,7 @@
 								</div>
 							</div>
 						</div>							
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-feather"></i>
@@ -162,7 +163,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-pencil"></i>
@@ -175,7 +176,7 @@
 						</div>					
 					</div>
 					<div class="swiper-slide">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-pencil"></i>
@@ -186,7 +187,7 @@
 								</div>
 							</div>
 						</div>						
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-feather"></i>
@@ -197,7 +198,7 @@
 								</div>
 							</div>
 						</div>						
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4">
 							<div class="features__item">
 								<div class="features__icon">
 									<i class="features__i icon-megaphone"></i>
@@ -236,12 +237,12 @@
 						<li class="filter__item filter" data-filter=".branding">Branding</li>
 						<li class="filter__item filter" data-filter=".web">Web</li>
 						<li class="filter__item filter" data-filter=".logodesign">Logo Design</li>
-						<li class="filter__item filter" data-filter=".photography">Photography</li>
+						<li class="filter__item filter" data-filter=".photography">Photo</li>
 					</ul>				
 				</div>
 			</div>
 			<div id="portfolio" class="portfolio">
-				<div class="col-md-3 portfolio__item mix photography">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix photography">
 					<img class="portfolio__image" src="./images/portfolio/1.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -253,7 +254,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix branding">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix branding">
 					<img class="portfolio__image" src="./images/portfolio/2.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -265,7 +266,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix web">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix web">
 					<img class="portfolio__image" src="./images/portfolio/3.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -277,7 +278,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix branding">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix branding">
 					<img class="portfolio__image" src="./images/portfolio/4.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -289,7 +290,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix web">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix web">
 					<img class="portfolio__image" src="./images/portfolio/5.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -301,7 +302,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix branding">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix branding">
 					<img class="portfolio__image" src="./images/portfolio/6.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -313,7 +314,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix logodesign">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix logodesign">
 					<img class="portfolio__image" src="./images/portfolio/7.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -325,7 +326,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 portfolio__item mix branding">
+				<div class="col-md-3 col-sm-3 col-xs-6 portfolio__item mix branding">
 					<img class="portfolio__image" src="./images/portfolio/8.jpg" alt="alt" />
 					<div class="portfolio__overlay-content">
 						<a href="#" class="portfolio__more">										
@@ -358,13 +359,13 @@
 			<div id="team__swiper-container" class="swiper-container team__swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/1.jpg" alt="John Filmr Doe" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -373,14 +374,19 @@
 							</div>
 							<h3 class="team__name">John Filmr Doe</h3>
 							<p class="team__position">Managing Director</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/2.jpg" alt="Lead Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -389,14 +395,19 @@
 							</div>
 							<h3 class="team__name">Chystine Hineu</h3>
 							<p class="team__position">Lead Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/3.jpg" alt="Lead Developer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -405,14 +416,19 @@
 							</div>
 							<h3 class="team__name">Martin Matrone</h3>
 							<p class="team__position">Lead Developer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/4.jpg" alt="Sr. UI Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -421,16 +437,21 @@
 							</div>
 							<h3 class="team__name">Steve Flaulkin</h3>
 							<p class="team__position">Sr. UI Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
 					</div>
 					<div class="swiper-slide">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/1.jpg" alt="Managing Director" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -439,14 +460,19 @@
 							</div>
 							<h3 class="team__name">John Filmr Doe</h3>
 							<p class="team__position">Managing Director</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/4.jpg" alt="Sr. UI Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -455,14 +481,19 @@
 							</div>
 							<h3 class="team__name">Steve Flaulkin</h3>
 							<p class="team__position">Sr. UI Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>						
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/2.jpg" alt="Lead Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -471,14 +502,19 @@
 							</div>
 							<h3 class="team__name">Chystine Hineu</h3>
 							<p class="team__position">Lead Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/3.jpg" alt="Lead Developer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -486,17 +522,22 @@
 								</div>
 							</div>
 							<h3 class="team__name">Martin Matrone</h3>
-							<p class="team__position">Lead Developer</p>
+							<p class="team__position">Lead Developer</p>							
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
 					</div>
 					<div class="swiper-slide">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/1.jpg" alt="Managing Director" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -505,14 +546,19 @@
 							</div>
 							<h3 class="team__name">John Filmr Doe</h3>
 							<p class="team__position">Managing Director</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/4.jpg" alt="Sr. UI Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -521,14 +567,19 @@
 							</div>
 							<h3 class="team__name">Steve Flaulkin</h3>
 							<p class="team__position">Sr. UI Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>						
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/2.jpg" alt="Lead Designer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -537,14 +588,19 @@
 							</div>
 							<h3 class="team__name">Chystine Hineu</h3>
 							<p class="team__position">Lead Designer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="team__item-content">
 								<img class="team__photo" src="images/team/3.jpg" alt="Lead Developer" />
 								<div class="team__overlay">
 									<div class="team__title">Nemo enim ipsam voluptatem quia voluptas</div>
 									<div class="team__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
-									<div class="team__social-block">
+									<div class="team__social-block hidden-sm hidden-xs">
 										<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
 										<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
@@ -553,6 +609,11 @@
 							</div>
 							<h3 class="team__name">Martin Matrone</h3>
 							<p class="team__position">Lead Developer</p>
+							<div class="team__social-block visible-sm visible-xs">
+								<a href="#" class="team__social-link"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="team__social-link"><i class="fa fa-google-plus"></i></a>
+							</div>							
 						</div>
 					</div>					
 				</div>
@@ -574,7 +635,7 @@
 	</div>	
 	<div class="container">		
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="facts__icon">
 					<svg 
 						class="facts__svg"						
@@ -589,7 +650,7 @@
 				<h2 class="facts__number">3200</h2>
 				<p class="facts__description">Hours of Work</p>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="facts__icon">					
 					<svg 
 					class="facts__svg"						
@@ -604,7 +665,7 @@
 				<h2 class="facts__number">120</h2>
 				<p class="facts__description">Satisfied Clinets</p>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="facts__icon">
 					<svg
 						 class="facts__svg"
@@ -619,7 +680,7 @@
 				<h2 class="facts__number">360</h2>
 				<p class="facts__description">Projects delivered</p>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="facts__icon">					
 					<svg 
 						id="svg3396"
@@ -650,7 +711,7 @@
 	</div>	
 	<div class="container contacts-content__padding">		
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<h3 class="contacts__title">Cras at ultrices erat, sed vulputate!</h3>
 				<p class="contacts__note">2345 Setwant natrer, 1234, 
 Washington. United States.<br/>
@@ -658,20 +719,20 @@ Washington. United States.<br/>
 hello@brandi.com<br/>
 ww.brandi.com</p>
 			</div>
-			<div class="col-md-8 contacts__form-contact">
+			<div class="col-md-8 col-sm-8 contacts__form-contact">
 				<h2 class="form-contact__title">Say hello!</h2>
-				<form method="post">
+				<form method="post" class="form-contact__form">
 					<div class="row">
-						<div class="col-md-6"><input class="form-contact__input" type="text" value="" placeholder="Name" /></div>
-						<div class="col-md-6"><input class="form-contact__input" type="email" value="" placeholder="Email" /></div>						
+						<div class="col-md-6 col-sm-6"><input class="form-contact__input" type="text" value="" placeholder="Name" /></div>
+						<div class="col-md-6 col-sm-6"><input class="form-contact__input" type="email" value="" placeholder="Email" /></div>						
 					</div>
 					<div class="row">
-						<div class="col-md-12"><input class="form-contact__input" type="text" value="" placeholder="Message" /></div>					
+						<div class="col-md-12 col-sm-12"><input class="form-contact__input" type="text" value="" placeholder="Message" /></div>					
 					</div>
 					<button class="form-contact__button" type="button"><i class="fa fa-envelope-o form-contact__button-icon"></i>Send message</button>
 				</form>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1">
 				<div class="contacts__social">
 					<a href="#" class="contacts__social-link"><i class="fa fa-twitter"></i></a>
 					<a href="#" class="contacts__social-link"><i class="fa fa-facebook"></i></a>
@@ -693,14 +754,14 @@ ww.brandi.com</p>
 <footer class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-12 col-xs-12">
 				<div class="about">
 					<div class="about__logotype">Brandi</div>
 					<div class="about__text">eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 	consequat.</div>				
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="subscribe">
 					<div class="subscribe__title">Subscribe</div>
 					<form class="subscribe__form" method="post">
@@ -710,7 +771,7 @@ ww.brandi.com</p>
 					<div class="subscribe__note">eusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 				</div>				
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="explore">
 					<div class="explore__title">Explore</div>
 					<ul class="explore__list">
@@ -725,7 +786,7 @@ ww.brandi.com</p>
 					</ul>
 				</div>			
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="copyright">
 					<div class="copyright__note">
 						Created with <i class="fa fa-heart-o copyright__icon--color-grey copyright__icon"></i> by <a class="footer__link" href="#">themecurve</a>,<br />

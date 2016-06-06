@@ -5,11 +5,12 @@
 	left: 0
 	right: 0
 	z-index: 999
-	background-color: rgba(16,22,54,.2)
+	background-color: rgba(16,22,54,.4)
 	border: 0
 	border-radius: 0
 	&__header
-		display: inline-block
+		display: inline
+		width: 100%
 	&__logotype
 		font-family: 'Pacifico', cursive
 		color: #fff
@@ -22,7 +23,7 @@
 	&__tagline
 		font-weight: 300
 		opacity: 0.5
-		display: inline-block
+		display: inline
 		color: #fff
 		padding-left: 30px
 		line-height: 70px
@@ -35,6 +36,9 @@
 	padding: 0
 	list-style: none
 	float: right
+	&__toggle
+		display: none
+		cursor: pointer
 	&__item
 		float: left
 		margin-left: 35px
@@ -50,3 +54,4 @@
 		&:hover
 			text-decoration: none
 			color: #fff
+			
