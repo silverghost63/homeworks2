@@ -9,6 +9,10 @@ $(document).ready(function() {
 			}
 	});*/
 	
+	$('.navigation__toggle').click(function() {
+		$('.navigation').slideToggle();
+	});
+	
 	$('.filter__item').click(function() {
 		$('.filter__item').removeClass('filter__item--active');
 		$(this).addClass('filter__item--active');
@@ -32,6 +36,15 @@ $(document).ready(function() {
 	var swiper_team = new Swiper('#team__swiper-container', {
 			pagination: '.swiper-pagination',
 			paginationClickable: true			
-	});		
+	});
+	
+	
+	$(window).resize(function(){
+		current = $(window).width()
+		console.log( current );
+		if (current >= 768) {
+			$('.navigation').show();
+		}
+	});	
 	
 });
