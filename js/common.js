@@ -9,9 +9,17 @@ $(document).ready(function() {
 			}
 	});*/
 	
+	$(".navigation__link").click(function() {
+		current = $(window).width()
+		if ( current < 768 ) {
+			$('.navigation').slideToggle('fast');
+		}
+	});
+	
 	$('.navigation__toggle').click(function() {
 		$('.navigation').slideToggle();
 	});
+	
 	
 	$('.filter__item').click(function() {
 		$('.filter__item').removeClass('filter__item--active');
